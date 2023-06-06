@@ -1,6 +1,6 @@
 var questions = [
     {
-      question: "Qual é o título de um dos contos mais famosos de Machado de Assis?",
+      question: "Qual ï¿½ o tï¿½tulo de um dos contos mais famosos de Machado de Assis?",
       options: {
         a: "A Bruxa",
         b: "O Desconhecido",
@@ -10,19 +10,19 @@ var questions = [
       answer: "c"
     },
     {
-      question: "Machado de Assis foi o primeiro presidente de qual instituição literária?",
+      question: "Machado de Assis foi o primeiro presidente de qual instituiï¿½ï¿½o literï¿½ria?",
       options: {
         a: "Academia Brasileira de Letras",
-        b: "Real Gabinete Português de Leitura",
+        b: "Real Gabinete Portuguï¿½s de Leitura",
         c: "Casa de Rui Barbosa",
-        d: "Instituto Histórico e Geográfico Brasileiro"
+        d: "Instituto Histï¿½rico e Geogrï¿½fico Brasileiro"
       },
       answer: "a"
     },
     {
-      question: "Qual é o nome do protagonista de 'Dom Casmurro'?",
+      question: "Qual ï¿½ o nome do protagonista de 'Dom Casmurro'?",
       options: {
-        a: "Brás Cubas",
+        a: "Brï¿½s Cubas",
         b: "Bentinho",
         c: "Quincas Borba",
         d: "Capitu"
@@ -30,17 +30,17 @@ var questions = [
       answer: "b"
     },
     {
-      question: "Qual foi o último romance publicado por Machado de Assis?",
+      question: "Qual foi o ï¿½ltimo romance publicado por Machado de Assis?",
       options: {
         a: "Memorial de Aires",
-        b: "Esaú e Jacó",
+        b: "Esaï¿½ e Jacï¿½",
         c: "Dom Casmurro",
         d: "Quincas Borba"
       },
       answer: "b"
     },
     {
-      question: "Em que ano Machado de Assis foi indicado ao Prêmio Nobel de Literatura?",
+      question: "Em que ano Machado de Assis foi indicado ao Prï¿½mio Nobel de Literatura?",
       options: {
         a: "1902",
         b: "1904",
@@ -50,12 +50,12 @@ var questions = [
       answer: "b"
     },
     {
-      question: "Qual era o nome da mãe de Machado de Assis?",
+      question: "Qual era o nome da mï¿½e de Machado de Assis?",
       options: {
         a: "Maria Leopoldina Machado de Assis",
         b: "Maria Leopoldina de Oliveira Assis",
-        c: "Maria José Machado de Assis",
-        d: "Maria José de Oliveira Assis"
+        c: "Maria Josï¿½ Machado de Assis",
+        d: "Maria Josï¿½ de Oliveira Assis"
       },
       answer: "c"
     },
@@ -70,7 +70,7 @@ var questions = [
       answer: "a"
     },
     {
-      question: "Em qual movimento literário Machado de Assis se destacou?",
+      question: "Em qual movimento literï¿½rio Machado de Assis se destacou?",
       options: {
         a: "Romantismo",
         b: "Realismo",
@@ -80,7 +80,7 @@ var questions = [
       answer: "b"
     },
     {
-      question: "Qual é o gênero literário pelo qual Machado de Assis é conhecido?",
+      question: "Qual ï¿½ o gï¿½nero literï¿½rio pelo qual Machado de Assis ï¿½ conhecido?",
       options: {
         a: "Poesia",
         b: "Teatro",
@@ -90,7 +90,7 @@ var questions = [
       answer: "c"
     },
     {
-      question: "Machado de Assis é considerado um dos grandes escritores de qual nacionalidade?",
+      question: "Machado de Assis ï¿½ considerado um dos grandes escritores de qual nacionalidade?",
       options: {
         a: "Portuguesa",
         b: "Brasileira",
@@ -156,7 +156,7 @@ var questions = [
   
   function showFinalScore() {
     var quizContainer = document.getElementById("quiz-container");
-    quizContainer.innerHTML = "<div id='final-page'><h2>Quiz finalizado!</h2><p id='final-score'>Você acertou " + score + " de " + questions.length + " questões.</p></div>";
+    quizContainer.innerHTML = "<div id='final-page'><h2>Quiz finalizado!</h2><p id='final-score'>Vocï¿½ acertou " + score + " de " + questions.length + " questï¿½es.</p></div>";
   }
   
   loadQuestion();
